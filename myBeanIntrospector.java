@@ -1,3 +1,4 @@
+// original web link: http://yangzhibin-java.iteye.com/blog/452068
 package MyTest;
 
 import java.beans.BeanInfo;
@@ -7,6 +8,7 @@ import java.beans.MethodDescriptor;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
 
+// to show what is Java bean and how it works with those default invoking
 class bean {
 	private String id = null;
 	private String name = null;
