@@ -8,7 +8,7 @@ import java.beans.PropertyDescriptor;
 
 /**
  * 
- * @Person类
+ * @Person类. 下面的setter/getter应该是反射，by Tom Xue
  * 
  */
 class Person {
@@ -52,6 +52,7 @@ public class IntrospectorDemo {
 	/**
 	 * @param args
 	 * @throws Exception
+     * 下面的getBeanInfo/GetPropertyDescriptors/GetPropertyType应该是内省，by Tom Xue
 	 */
 	public static void main(String[] args) throws Exception {
 		BeanInfo info = Introspector.getBeanInfo(Student.class, Person.class);
